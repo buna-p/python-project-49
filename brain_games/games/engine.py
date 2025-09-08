@@ -16,7 +16,7 @@ def engine(game):
         if not level_up:
             print(
             f"'{answer_user}' is wrong answer ;(. \
-                Correct answer was '{correct_answer}'.\nLet's try again, {name}"
+Correct answer was '{correct_answer}'.\nLet's try again, {name}"
         )
             break
         print("Correct!")
