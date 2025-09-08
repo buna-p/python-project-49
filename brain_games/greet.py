@@ -1,2 +1,2 @@
 def greet():
-    print('Welcome to the Brain Games!')
+    print("Welcome to the Brain Games!")
