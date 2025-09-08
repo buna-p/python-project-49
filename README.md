@@ -2,8 +2,19 @@
 [![Actions Status](https://github.com/buna-p/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/buna-p/python-project-49/actions)
 <<<<<<< HEAD
 
-The brain-games package contains five interactive games:
-brain-even - checking a number for parity
+The brain-games package contains five interactive games.
+Minimum requirements to run:
+- python = 3.12
+- prompt = 0.4.1
+- ruff = 0.12.10
+
+Clone the repository with the command git clone.
+Apply the commands sequentially:
+1. make build
+2. make package-install
+3. to start the game use the command: <game-name>
+
+<brain-even> - checking a number for parity
 <a href="https://asciinema.org/a/7qXlDI27PUkv4hTXRK4UfqVVa" target="_blank"><img src="https://asciinema.org/a/7qXlDI27PUkv4hTXRK4UfqVVa.svg" /></a>
 
 brain-calc - calculating the result of an operation (addition, subtraction, division)
@@ -17,8 +28,3 @@ brain-progression - finding the missing number in a progression
 
 brain-prime - checking a number for primality
 <a href="https://asciinema.org/a/K8xF7ZrEKDisqMn35GRtPUhzN" target="_blank"><img src="https://asciinema.org/a/K8xF7ZrEKDisqMn35GRtPUhzN.svg" /></a>
-
-Minimum requirements for games to run:
-- python = 3.12
-- prompt = 0.4.1
-- ruff = 0.12.10
