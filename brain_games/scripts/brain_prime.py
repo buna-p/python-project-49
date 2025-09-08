@@ -1,5 +1,5 @@
-from brain_games.games.engine import engine
 import brain_games.games.prime as prime
+from brain_games.games.engine import engine
 
 
 def main():
@@ -7,4 +7,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main( )
+    main()

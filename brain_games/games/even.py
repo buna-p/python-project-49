@@ -1,4 +1,6 @@
-import prompt, random
+import random
+
+import prompt
 
 
 def task():
