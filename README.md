@@ -9,11 +9,8 @@ Minimum requirements to run:
 - ruff = 0.12.10
 
 To start the games:
-1. clone the repository with the command `git clone.
-2. apply the commands sequentially:
-  2.1. `make build
-  2.2. `make package-install
-  2.3. to start the game use the command: `<game-name>
+1. clone the repository with the command `git clone`.
+2. apply the commands sequentially: `make build`, `make package-install`; to start the game use the command: `<game-name>`
 
 **brain-even** - checking a number for parity
 <a href="https://asciinema.org/a/7qXlDI27PUkv4hTXRK4UfqVVa" target="_blank"><img src="https://asciinema.org/a/7qXlDI27PUkv4hTXRK4UfqVVa.svg" /></a>
