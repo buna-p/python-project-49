@@ -5,3 +5,4 @@
 =======
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=buna-p_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=buna-p_python-project-49)
 >>>>>>> refs/remotes/origin/main
+<script src="https://asciinema.org/a/7qXlDI27PUkv4hTXRK4UfqVVa.js" id="asciicast-7qXlDI27PUkv4hTXRK4UfqVVa" async="true"></script>
