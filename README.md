@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/buna-p/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/buna-p/python-project-49/actions)
-<<<<<<< HEAD
+
 
 The **brain-games** package contains five interactive games.
 Minimum requirements to run:
