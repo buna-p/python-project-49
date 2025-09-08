@@ -1,7 +1,8 @@
 [project]
 name = "hexlet-code"
+authors = ["https://github.com/buna-p"]
 version = "0.1.0"
-description = "Five interactive logic games"
+description = "five interactive logic games"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
