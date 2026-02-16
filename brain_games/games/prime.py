@@ -3,12 +3,15 @@ import random
 import prompt
 
 
+RANGE = (2, 100)
+
+
 def task():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def get_answer_user() -> tuple[str, str]:
-    number = random.randint(2, 100)
+    number = random.randint(*RANGE)
     question = number
     print(f"Question: {question}")
     answer_user = prompt.string("Your answer: ")

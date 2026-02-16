@@ -3,6 +3,9 @@ import random
 import prompt
 
 
+RANGE = (0, 100)
+
+
 def task():
     print('What is the result of the expression?')
 
@@ -13,7 +16,7 @@ def operation_random() -> str:
 
 
 def get_answer_user() -> tuple[str, str]:
-    number1, number2 = random.randint(0, 100), random.randint(0, 100)
+    number1, number2 = random.randint(*RANGE), random.randint(*RANGE)
     operation = operation_random()
     question = f"{number1} {operation} {number2}"
     print(f"Question: {question}")

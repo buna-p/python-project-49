@@ -3,12 +3,15 @@ import random
 import prompt
 
 
+RANGE = (1, 100)
+
+
 def task():
     print('Find the greatest common divisor of given numbers.')
 
 
 def get_answer_user() -> tuple[str, str]:
-    number1, number2 = random.randint(0, 100), random.randint(0, 100)
+    number1, number2 = random.randint(*RANGE), random.randint(*RANGE)
     question = f"{number1} {number2}"
     print(f"Question: {question}")
     answer_user = prompt.string("Your answer: ")
