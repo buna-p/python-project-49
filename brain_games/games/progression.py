@@ -19,8 +19,8 @@ def progression_numbers() -> list:
     step = random.randint(*RANGE_2)
     progression = []
     for i in range(*RANGE_3):
-        currentElement = str(start + i * step)
-        progression.append(currentElement)
+        current_element = str(start + i * step)
+        progression.append(current_element)
     return progression
 
 
@@ -40,7 +40,6 @@ def get_correct_answer(question: str) -> int:
     for i in range(len(progression) - 1):
         if progression[i] != '..' and progression[i + 1] != '..':
             step = int(progression[i + 1]) - int(progression[i])
-            pass
     if index_x > 0:
         return int(progression[index_x - 1]) + step
     else:
